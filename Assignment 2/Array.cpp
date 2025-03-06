@@ -18,6 +18,7 @@ Array::Array(int N) {
 		exit(1);
 	}
 	else {
+		cout << "\n|-------Generating Array of " << N << " Elements....-------|";
 		for (int i = 0; i < size; i++) {
 			items[i] = rand() % 301;	//Numbers Range <= 301
 			sorted[i] = items[i];

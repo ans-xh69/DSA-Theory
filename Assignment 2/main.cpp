@@ -7,7 +7,7 @@ int main() {
 	char yn;
 	Array a (50000);
 
-	cout << "Generating Numbers.......\n\nWould you like the random numbers array to be displayed?\t[y / n]: ";
+	cout << "\n\nGenerating Numbers.......\n\nWould you like the random numbers array to be displayed?\t[y / n]: ";
 	cin >> yn;
 	yn = tolower(yn);
 
